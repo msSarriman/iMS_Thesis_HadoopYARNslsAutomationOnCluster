@@ -1,0 +1,9 @@
+#Please enter the desired values, comma separated.
+#If for an attribute you desire only one value, finish line <, 0>
+ysls_runner_pool_size=100,200
+ysls_nm_memory_mb=10240,5120
+ysls_nm_vcores=10,5
+ysls_nm_heartbeat_interval_ms=1000,0
+ysls_am_heartbeat_interval_ms=1000,0
+ysls_container_memory_mb=1024,512
+ysls_container_vcores=1,2

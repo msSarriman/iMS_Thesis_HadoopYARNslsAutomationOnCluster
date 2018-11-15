@@ -1,0 +1,30 @@
+#Lines are like csv with values (withoutnames)
+#format
+#Before @ is the number of the experiment
+#After @ till the : are the experiment parameters
+#After : is the progress of the experiment
+#rps200,nmMem10240,nmVcores9,nmHeart1000,amHeart1000,contMem2048,contVcores2
+#    Which translates to:
+#    rps2       -> yarn.sls.runner.pool.size=2
+#    nmMem1024  -> yarn.sls.nm.memory.mb=1024
+#    nmVcores2  -> yarn.sls.nm.vcores=2
+#    nmHeart50  -> yarn.sls.nm.heartbeat.interval.ms=50
+#    amHeart50  -> yarn.sls.am.heartbeat.interval.ms=50
+#    contMem256 -> yarn.sls.container.memory.mb=256
+#    contVcores1-> yarn.sls.container.vcores=1
+1@rps100,nmMem10240,nmVcores10,nmHeart1000,amHeart1000,contMem1024,contVcores1:100
+2@rps100,nmMem10240,nmVcores10,nmHeart1000,amHeart1000,contMem1024,contVcores2:100
+3@rps100,nmMem10240,nmVcores10,nmHeart1000,amHeart1000,contMem512,contVcores1:Fail
+4@rps100,nmMem10240,nmVcores5,nmHeart1000,amHeart1000,contMem1024,contVcores2:Fail
+5@rps100,nmMem10240,nmVcores5,nmHeart1000,amHeart1000,contMem512,contVcores1:100
+6@rps100,nmMem10240,nmVcores10,nmHeart1000,amHeart1000,contMem512,contVcores1:100
+7@rps100,nmMem10240,nmVcores5,nmHeart1000,amHeart1000,contMem1024,contVcores2:100
+8@rps100,nmMem10240,nmVcores5,nmHeart1000,amHeart1000,contMem512,contVcores2:100
+9@rps100,nmMem5120,nmVcores10,nmHeart1000,amHeart1000,contMem1024,contVcores2:100
+10@rps100,nmMem5120,nmVcores10,nmHeart1000,amHeart1000,contMem1024,contVcores1:100
+11@rps100,nmMem5120,nmVcores10,nmHeart1000,amHeart1000,contMem512,contVcores1:100
+12@rps100,nmMem5120,nmVcores10,nmHeart1000,amHeart1000,contMem512,contVcores2:100
+13@rps100,nmMem5120,nmVcores5,nmHeart1000,amHeart1000,contMem1024,contVcores1:100
+14@rps100,nmMem5120,nmVcores5,nmHeart1000,amHeart1000,contMem1024,contVcores2:100
+15@rps100,nmMem5120,nmVcores5,nmHeart1000,amHeart1000,contMem512,contVcores1:135
+16@rps100,nmMem5120,nmVcores5,nmHeart1000,amHeart1000,contMem512,contVcores2:100

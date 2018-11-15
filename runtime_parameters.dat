@@ -1,0 +1,7 @@
+# This file defines the runtime parameters for the experiment. At sys_experiment_timeout enter seconds>20.
+sys_attribute_values_loc=/media/sf_D_DRIVE/GoogleDrive/Thesis/Automation/values.exp
+sys_output_directory=/home/emman/Documents/SLSExperiment/
+sys_hadoop_home=/usr/local/hadoop/hadoop-3.1.1/
+sys_trace_location=/usr/local/hadoop/hadoop-3.1.1/share/hadoop/tools/sls/sample-data/2jobs2min-rumen-jh.json
+sys_live_track_file=/media/sf_D_DRIVE/GoogleDrive/Thesis/Automation/real_time_tracking.dat
+sys_experiment_timeout=20
