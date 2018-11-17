@@ -53,6 +53,11 @@ $ ./sbin/start-dfs.sh
 $ jps
 ```
 
+Populate the neccessary files (see `Extra Files` section), and run the Server with `./server.py` python file (run `./server.py --help` for execution details).
+On Client side execute the `./client.py` (run `./client.py --help` for execution details).
+
+If the JavaGUI (experiments process overview) needs to open standalone, run it with the command: `prompt# java -jar ProcessTracking.jar [ServerIPv4] [port]` (default port is 30001).
+
 For production environments (Apache Hadoop compiled from source), find the `sbin` folder under `hadoop-3.1.1-src/hadoop-dist/target/hadoop-3.1.1/sbin`
 
 ### UMLs
